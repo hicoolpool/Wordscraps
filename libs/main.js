@@ -8,7 +8,7 @@ const dictionary = require("./valid-dictionary/40000-dictionary.json");
 let points = 0;
 let alreadyDone = [];
 let letterStack = [];
-let time = 60;
+let time = 180;
 let timer = null;
 
 $(document).ready(() => {
