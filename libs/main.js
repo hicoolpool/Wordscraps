@@ -9,7 +9,7 @@ let points = 0;
 let alreadyDone = [];
 let letterStack = [];
 let time = 180;
-let timer = null;
+let r = null;
 
 $(document).ready(() => {
   $(".backspace").click(backspace);
